@@ -9,7 +9,7 @@ public class Mapa {
 
         Map<Integer, String> usuarios = new HashMap<>();
 
-        usuarios.put(1, "Roberto");
+        usuarios.put(0, "Roberto");
         usuarios.put(1, "Ricardo");
         usuarios.put(2, "João");
         usuarios.put(3, "Pedro");

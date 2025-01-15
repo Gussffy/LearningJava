@@ -6,7 +6,7 @@ public class Usuario {
     String email;
 
 
-    // Implementando método equals
+    // Implementando metodo equals
     @Override
     public boolean equals(Object obj) {
 
