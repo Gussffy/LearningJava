@@ -1,5 +1,7 @@
 package gustavo.com.list;
 
+import java.util.Scanner;
+
 public class MainListTest {
     public static void main(String[] args) {
 
@@ -18,13 +20,16 @@ public class MainListTest {
     }
 
     private static void testAddFirst() {
-        LinkedList<String> list = new LinkedList<>();
-        list.addFirst("A");
-        list.addFirst("B");
-        list.addFirst("C");
-        list.addFirst("D");
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println(( "Test AddFirst, Expected D C B A"));
+        LinkedList<String> list = new LinkedList<>();
+
+        list.addFirst(sc.nextLine());
+        list.addFirst(sc.nextLine());
+        list.addFirst(sc.nextLine());
+        list.addFirst(sc.nextLine());
+
+        System.out.println ( "Test AddFirst: ");
         list.printList();
 
     }
