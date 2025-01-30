@@ -1,4 +1,4 @@
-package gustavo.com.equalshashcode;
+package gustavo.com.colecoes.equalshashcode;
 
 public class Usuario {
 

@@ -1,4 +1,4 @@
-package gustavo.com.oocomposicao;
+package gustavo.com.oo.oocomposicao;
 
 public class CarroTeste {
 

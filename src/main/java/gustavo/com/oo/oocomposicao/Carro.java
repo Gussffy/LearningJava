@@ -1,4 +1,4 @@
-package gustavo.com.oocomposicao;
+package gustavo.com.oo.oocomposicao;
 
 public class Carro {
 
@@ -17,7 +17,7 @@ public class Carro {
     void ligar(){
         motor.ligado = true;
     }
-    void desligar(){
+    void desligar (){
         motor.ligado = false;
     }
     boolean estarLigado(){

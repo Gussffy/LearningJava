@@ -1,4 +1,4 @@
-package gustavo.com.oocomposicao.desafio;
+package gustavo.com.oo.oocomposicao.desafio;
 
 public class Item {
 
